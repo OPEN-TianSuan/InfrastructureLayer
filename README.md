@@ -37,12 +37,6 @@ Reserved for runtime systems that host satellite workloads, for example inferenc
 
 Ten applications (App1–App10) used in the ASE 2025 paper *SateLight: a satellite application update framework for satellite computing*, covering attitude determination, change detection, client cache, core network, data compression, multi-stage image compression, image encoding, object detection, ship detection and tracking. Start at [ApplicationSoftware/README.md](ApplicationSoftware/README.md).
 
-## 🔗 Related Repositories
-
-- [EngineeringTools](https://github.com/OPEN-TianSuan/EngineeringTools) — development, simulation and evaluation tooling
-- [SatelliteData](https://github.com/OPEN-TianSuan/SatelliteData) — remote sensing imagery, orbital, telemetry and communication data
-- [TechnicalLiterature](https://github.com/OPEN-TianSuan/TechnicalLiterature) — research papers, standards and documentation
-
 ## 🤝 Contributing
 
 Researchers, developers, students and satellite enthusiasts are welcome. If you would like to add material, open a pull request or start a discussion.
