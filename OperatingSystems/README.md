@@ -1,14 +1,16 @@
+**English** | [Chinese](README.zh-CN.md)
+
 This directory collects open-source operating systems, standards, and resources for satellite onboard computers and payloads, curated by the **[OPEN-TianSuan](https://github.com/OPEN-TianSuan)** community.
 
 ---
 
 ## 📂 Available Resources: (`docs/`)
 
-Currently this repository shares documents in the `docs/` directory, which collects industry standards, specifications, whitepapers and reports related to satellite operating systems, so that the community has a common place to find the material that guides design, implementation, evaluation and collaboration.
+Currently this directory shares documents in the `docs/` directory, which collects industry standards, specifications, whitepapers and reports related to satellite operating systems, so that the community has a common place to find the material that guides design, implementation, evaluation and collaboration.
 
 | Document | Description |
 | --- | --- |
-| [Open Standard Initiative for Space Operating Systems (太空操作系统开源标准倡议)](docs/太空操作系统开源标准倡议-修改.pdf) | The community's initiative document on open standards for space operating systems. |
+| [Open Standard Initiative for Space Operating Systems](docs/太空操作系统开源标准倡议-修改.pdf) | The community's initiative document on open standards for space operating systems. |
 
 More material is welcome here, for example: space system standards and recommendations (e.g., CCSDS, ECSS), POSIX profiles and RTOS interface specifications, safety, security and qualification/certification guidance, and whitepapers or technical reports from industry, academia and open-source projects. If you would like to add a document, simply open a pull request with the file placed under `docs/`.
 

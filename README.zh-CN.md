@@ -19,23 +19,23 @@
 
 | 目录 | 内容 | 来源 |
 | --- | --- | --- |
-| [OperatingSystems](OperatingSystems/) | 面向星载计算机与载荷的开源操作系统、标准与参考资料。 | `SatelliteOperatingSystem` |
-| [RuntimeSystems](RuntimeSystems/) | 面向卫星工作负载的运行时系统，暂为预留目录。 | — |
-| [ApplicationSoftware](ApplicationSoftware/) | SateLight 更新框架中使用的十个卫星应用（App1–App10）。 | `ApplicationSoftwareCode` |
+| [OperatingSystems](OperatingSystems/README.zh-CN.md) | 面向星载计算机与载荷的开源操作系统、标准与参考资料。 | `SatelliteOperatingSystem` |
+| [RuntimeSystems](RuntimeSystems/README.zh-CN.md) | 面向卫星工作负载的运行时系统，暂为预留目录。 | — |
+| [ApplicationSoftware](ApplicationSoftware/README.zh-CN.md) | SateLight 更新框架中使用的十个卫星应用（App1–App10）。 | `ApplicationSoftwareCode` |
 
 ## 📁 目录说明
 
 ### OperatingSystems — 操作系统
 
-卫星操作系统资料。`docs/` 目录收录行业标准与社区文档，目录 README 还梳理了 RROS、Apache NuttX、RTEMS 以及运行在 COTS 硬件上的 Linux 等常用开源方案。入口：[OperatingSystems/README.md](OperatingSystems/README.md)。
+卫星操作系统资料。`docs/` 目录收录行业标准与社区文档，目录 README 还梳理了 RROS、Apache NuttX、RTEMS 以及运行在 COTS 硬件上的 Linux 等常用开源方案。入口：[OperatingSystems/README.zh-CN.md](OperatingSystems/README.zh-CN.md)。
 
 ### RuntimeSystems — 运行时系统
 
-预留用于承载卫星工作负载的运行时系统，例如大模型推理运行时。目前目录为空，详见 [RuntimeSystems/README.md](RuntimeSystems/README.md)。
+预留用于承载卫星工作负载的运行时系统，例如大模型推理运行时。目前目录为空，详见 [RuntimeSystems/README.zh-CN.md](RuntimeSystems/README.zh-CN.md)。
 
 ### ApplicationSoftware — 应用软件
 
-ASE 2025 论文 *SateLight: a satellite application update framework for satellite computing* 中使用的十个应用（App1–App10），覆盖姿态确定、变化检测、客户端缓存、核心网、数据压缩、多阶段图像压缩、图像编码、目标检测、舰船检测与目标跟踪。入口：[ApplicationSoftware/README.md](ApplicationSoftware/README.md)。
+ASE 2025 论文 *SateLight: a satellite application update framework for satellite computing* 中使用的十个应用（App1–App10），覆盖姿态确定、变化检测、客户端缓存、核心网、数据压缩、多阶段图像压缩、图像编码、目标检测、舰船检测与目标跟踪。入口：[ApplicationSoftware/README.zh-CN.md](ApplicationSoftware/README.zh-CN.md)。
 
 ## 🔗 相关仓库
 
