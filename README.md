@@ -34,7 +34,7 @@ Reserved for runtime systems that host satellite workloads, for example inferenc
 
 ### ApplicationSoftware — 应用软件
 
-Ten applications (App1–App10) used in the ASE 2025 paper *SateLight: a satellite application update framework for satellite computing*, covering attitude determination, change detection, client cache, core network, data compression, image encoding, object detection, ship detection and tracking. Start at [ApplicationSoftware/README.md](ApplicationSoftware/README.md).
+Ten applications (App1–App10) used in the ASE 2025 paper *SateLight: a satellite application update framework for satellite computing*, covering attitude determination, change detection, client cache, core network, data compression, multi-stage image compression, image encoding, object detection, ship detection and tracking. Start at [ApplicationSoftware/README.md](ApplicationSoftware/README.md).
 
 ## 🔗 Related Repositories
 

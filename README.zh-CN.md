@@ -34,7 +34,7 @@
 
 ### ApplicationSoftware — 应用软件
 
-ASE 2025 论文 *SateLight: a satellite application update framework for satellite computing* 中使用的十个应用（App1–App10），覆盖姿态确定、变化检测、客户端缓存、核心网、数据压缩、图像编码、目标检测、舰船检测与目标跟踪。入口：[ApplicationSoftware/README.md](ApplicationSoftware/README.md)。
+ASE 2025 论文 *SateLight: a satellite application update framework for satellite computing* 中使用的十个应用（App1–App10），覆盖姿态确定、变化检测、客户端缓存、核心网、数据压缩、多阶段图像压缩、图像编码、目标检测、舰船检测与目标跟踪。入口：[ApplicationSoftware/README.md](ApplicationSoftware/README.md)。
 
 ## 🔗 相关仓库
 
