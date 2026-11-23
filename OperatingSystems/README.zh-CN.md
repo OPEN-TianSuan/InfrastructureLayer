@@ -1,4 +1,4 @@
-本目录收录由 **[OPENSAT](https://github.com/OPEN-TianSuan)** 社区整理的、面向卫星星载计算机与载荷的开源操作系统、标准与其他相关资源。
+本目录收录由 **[OPEN-TianSuan](https://github.com/OPEN-TianSuan)** 社区整理的、面向卫星星载计算机与载荷的开源操作系统、标准与其他相关资源。
 
 ---
 ## 📂 已收录资源：（`docs/`）

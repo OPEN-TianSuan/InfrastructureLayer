@@ -1,4 +1,4 @@
-This directory collects open-source operating systems, standards, and resources for satellite onboard computers and payloads, curated by the **[OPENSAT](https://github.com/OPEN-TianSuan)** community.
+This directory collects open-source operating systems, standards, and resources for satellite onboard computers and payloads, curated by the **[OPEN-TianSuan](https://github.com/OPEN-TianSuan)** community.
 
 ---
 

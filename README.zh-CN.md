@@ -1,7 +1,8 @@
 <div align="center">
 
-由 **[OPENSAT](https://github.com/OPEN-TianSuan)** 社区维护的卫星软件开源资源汇总仓库。
+由 **[OPEN-TianSuan](https://github.com/OPEN-TianSuan)** 社区维护的卫星软件开源资源汇总仓库。
 
+[![Total views](https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/traffic/SatelliteSoftware.svg)](https://github.com/OPEN-TianSuan/.github/blob/main/traffic/SatelliteSoftware.csv "Cumulative recorded repository views; updated hourly")
 [![README](https://img.shields.io/badge/README-English-blue?style=flat-square)](README.md)
 
 [English](README.md) | **中文**
