@@ -19,13 +19,13 @@
 | RuntimeSupport/ResumableInference/ | 预留用于可续推理。 |
 | RuntimeSupport/ComputeAcceleration/ | 预留用于计算加速。 |
 | RuntimeSupport/LightweightExecution/ | 预留用于轻量执行。 |
-| SoftwareMaintenance/SoftwareUpdates/ | 预留用于软件更新。 |
+| [SoftwareMaintenance/SoftwareUpdates/](SoftwareMaintenance/SoftwareUpdates/) | SateLight 卫星应用更新框架，迁移自 [WenJinfeng/SateLight](https://github.com/WenJinfeng/SateLight)。 |
 | SoftwareMaintenance/ReliabilityAssurance/ | 预留用于可靠性保障。 |
-| FoundationalSoftware/OperatingSystems/ | 面向星载计算机与载荷的开源操作系统、标准与参考资料。 |
+| [FoundationalSoftware/OperatingSystems/](FoundationalSoftware/OperatingSystems/) | 面向星载计算机与载荷的开源操作系统、标准与参考资料。 |
 | FoundationalSoftware/HousekeepingSoftware/ | 预留用于星务软件。 |
 | FoundationalSoftware/AttitudeOrbitControlSoftware/ | 预留用于姿轨控软件。 |
 
-目前仅 [FoundationalSoftware/OperatingSystems](FoundationalSoftware/OperatingSystems/) 已收录内容，其余目录为预留目录。
+目前 FoundationalSoftware/OperatingSystems 与 SoftwareMaintenance/SoftwareUpdates 已收录内容，其余目录为预留目录。
 
 ## 🔗 相关仓库
 

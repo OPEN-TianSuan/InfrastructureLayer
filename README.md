@@ -19,13 +19,13 @@ Satellite infrastructure software, maintained by the **[OPEN-TianSuan](https://g
 | RuntimeSupport/ResumableInference/ | Reserved for resumable inference. |
 | RuntimeSupport/ComputeAcceleration/ | Reserved for compute acceleration. |
 | RuntimeSupport/LightweightExecution/ | Reserved for lightweight execution. |
-| SoftwareMaintenance/SoftwareUpdates/ | Reserved for software updates. |
+| [SoftwareMaintenance/SoftwareUpdates/](SoftwareMaintenance/SoftwareUpdates/) | The SateLight application update framework, migrated from [WenJinfeng/SateLight](https://github.com/WenJinfeng/SateLight). |
 | SoftwareMaintenance/ReliabilityAssurance/ | Reserved for reliability assurance. |
-| FoundationalSoftware/OperatingSystems/ | Open-source operating systems, standards and reference material for onboard computers and payloads. |
+| [FoundationalSoftware/OperatingSystems/](FoundationalSoftware/OperatingSystems/) | Open-source operating systems, standards and reference material for onboard computers and payloads. |
 | FoundationalSoftware/HousekeepingSoftware/ | Reserved for housekeeping software. |
 | FoundationalSoftware/AttitudeOrbitControlSoftware/ | Reserved for attitude and orbit control software. |
 
-Only [FoundationalSoftware/OperatingSystems](FoundationalSoftware/OperatingSystems/) currently contains material. The remaining directories are reserved.
+FoundationalSoftware/OperatingSystems and SoftwareMaintenance/SoftwareUpdates currently contain material. The remaining directories are reserved.
 
 ## 🔗 Related Repositories
 
