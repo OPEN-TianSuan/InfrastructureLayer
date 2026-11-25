@@ -16,7 +16,7 @@ Satellite infrastructure software, maintained by the **[OPEN-TianSuan](https://g
 | Directory | Contents |
 | --- | --- |
 | PlatformManagement/SpaceNativeCloudPlatform/ | Reserved for a space-native cloud platform. |
-| RuntimeSupport/ResumableInference/ | Reserved for resumable inference. |
+| [RuntimeSupport/ResumableInference/](https://github.com/OPEN-TianSuan/InfrastructureLayer/blob/main/RuntimeSupport/ResumableInference/README.md) | Rover, a local multimodal inference engine with resumable sessions; source code is maintained in [OPEN-TianSuan/Rover](https://github.com/OPEN-TianSuan/Rover). |
 | RuntimeSupport/ComputeAcceleration/ | Reserved for compute acceleration. |
 | RuntimeSupport/LightweightExecution/ | Reserved for lightweight execution. |
 | [SoftwareMaintenance/SoftwareUpdates/](SoftwareMaintenance/SoftwareUpdates/) | The SateLight application update framework, migrated from [WenJinfeng/SateLight](https://github.com/WenJinfeng/SateLight). |
