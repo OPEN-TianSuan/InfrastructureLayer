@@ -19,7 +19,7 @@ Satellite infrastructure software, maintained by the **[OPEN-TianSuan](https://g
 | [RuntimeSupport/ResumableInference/](https://github.com/OPEN-TianSuan/InfrastructureLayer/blob/main/RuntimeSupport/ResumableInference/README.md) | Rover, a local multimodal inference engine with resumable sessions; source code is maintained in [OPEN-TianSuan/Rover](https://github.com/OPEN-TianSuan/Rover). |
 | RuntimeSupport/ComputeAcceleration/ | Reserved for compute acceleration. |
 | RuntimeSupport/LightweightExecution/ | Reserved for lightweight execution. |
-| [SoftwareMaintenance/SoftwareUpdates/](SoftwareMaintenance/SoftwareUpdates/) | The SateLight application update framework, migrated from [WenJinfeng/SateLight](https://github.com/WenJinfeng/SateLight). |
+| [SoftwareMaintenance/SoftwareUpdates/](https://github.com/OPEN-TianSuan/InfrastructureLayer/blob/main/SoftwareMaintenance/SoftwareUpdates/README.md) | SateLight, a satellite application update framework; source code is maintained in [OPEN-TianSuan/SateLight](https://github.com/OPEN-TianSuan/SateLight). |
 | SoftwareMaintenance/ReliabilityAssurance/ | Reserved for reliability assurance. |
 | [FoundationalSoftware/OperatingSystems/](FoundationalSoftware/OperatingSystems/) | Open-source operating systems, standards and reference material for onboard computers and payloads. |
 | FoundationalSoftware/HousekeepingSoftware/ | Reserved for housekeeping software. |
