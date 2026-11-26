@@ -1,6 +1,6 @@
 <div align="center">
 
-The SateLight application update framework, collected under software maintenance for satellite infrastructure.
+SateLight is a satellite application update framework, collected under software maintenance for satellite infrastructure.
 
 [![README](https://img.shields.io/badge/README-Chinese-blue?style=flat-square)](README.zh-CN.md)
 
@@ -12,81 +12,40 @@ The SateLight application update framework, collected under software maintenance
 
 ## 📂 What Is Here
 
-`SateLightCode/` contains the application update framework from the SateLight project. The code is migrated from the upstream repository [WenJinfeng/SateLight](https://github.com/WenJinfeng/SateLight), directory `SateLightCode/`.
+This directory introduces **SateLight**, a satellite application update framework for constrained ground–space links. The source code is maintained in the standalone [OPEN-TianSuan/SateLight repository](https://github.com/OPEN-TianSuan/SateLight); it is linked directly rather than copied into this directory.
+
+SateLight performs content-aware differential analysis between original and updated containerized applications on the ground, then reconstructs the updated application onboard. It also provides fault-tolerant rollback based on container image layers.
+
+## 🚀 Capabilities
+
+| Capability | Description |
+| --- | --- |
+| Content-aware differential updates | Represents application changes at layer, file, and content granularity. |
+| Onboard reconstruction | Applies fine-grained changes onboard while preserving update consistency. |
+| Fault-tolerant rollback | Uses container image layers to recover a previous application state after an update failure. |
+| Change evaluation | Supports measuring the extent of code changes between application versions. |
 
 ## 📄 Paper
 
 **SateLight: A Satellite Application Update Framework for Satellite Computing**
 
-Jinfeng Wen, Jianshu Zhao, Zixi Zhu, Xiaomin Zhang, Qi Liang, Ao Zhou, Shangguang Wang.
-Proceedings of the IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025: 117–128.
+Jinfeng Wen, Jianshu Zhao, Zixi Zhu, Xiaomin Zhang, Qi Liang, Ao Zhou, Shangguang Wang. Proceedings of the IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025: 117–128.
 
-The paper studies how to update containerized satellite applications over constrained ground–space links. Instead of transferring a complete new image, SateLight performs a content-aware differential analysis between the original and updated application versions on the ground, encodes the semantic changes into a compact metadata representation, and reconstructs the updated application onboard. It also provides a fault-tolerant rollback mechanism based on container image layers.
-
-The main contributions are:
-
-1. A content-aware differential update method operating at layer, file, and content granularity.
-2. An onboard reconstruction process that applies fine-grained changes while preserving update consistency.
-3. A layer-based fault-tolerant recovery mechanism that can roll back to a previous application state.
-4. An evaluation on ten representative satellite applications with 10%, 20%, and 50% code modifications.
-
-## 📁 Code Layout
-
-| File | Role |
-| --- | --- |
-| `write_diff.py` | Ground-side differential analysis and update payload generation. |
-| `myers.py` | Myers-based line diff used by the differential analysis. |
-| `substitute.py` | Onboard reconstruction and rollback. |
-| `detection.py` | Container runtime monitoring and failure handling. |
-| `file_change.py`, `file_change_js.py`, `file_change_m.py` | Generate file-level update variants. |
-| `dir_change.py`, `dir_change_js.py`, `dir_change_m.py` | Generate directory-level update variants. |
-| `get_change_rate.py` | Quantify the extent of code changes between two versions. |
+The paper studies how to update containerized satellite applications over constrained ground–space links. Instead of transferring a complete new image, SateLight encodes semantic changes into a compact update representation and reconstructs the updated application onboard. The evaluation covers ten representative satellite applications with 10%, 20%, and 50% code modifications.
 
 ## 🚀 Usage
 
-Requirements: Python 3, `tar` and `gzip`, the Docker SDK for Python for `detection.py`, and `skopeo` for OCI image conversion.
-
-The scripts expect a workspace with `diff_content/`, `workspace/diff_content/`, and `workspace/tmp/{extract_dir,staged_diff_content,staged_layer}`. These paths are defined in the scripts and can be adjusted.
-
-### Ground station
-
-Generate the differential payload:
+Clone the source repository to access the implementation and its usage instructions:
 
 ```bash
-python write_diff.py layer   # layer-level diff
-python write_diff.py all     # file-level diff
-python write_diff.py inc     # content-level diff
+git clone https://github.com/OPEN-TianSuan/SateLight.git
+cd SateLight
 ```
 
-The script writes `diff_content.tar.gz` in the current directory. Adjust the paths passed to `write_diff` when the workspace layout differs.
-
-### Satellite
-
-Apply the update:
-
-```bash
-python substitute.py <update-mode> <backup-mode>
-```
-
-Supported combinations:
-
-- `layer none`
-- `all none`
-- `inc none`
-- `inc layer`
-- `inc file`
-- `inc patch`
-
-### Failure detection
-
-Configure the image path, container name, and handler in `detection.py`, then run it while the updated container is active. On a non-zero exit or kill event it invokes `substitute.py` for rollback.
-
-### Variant generation and change rate
-
-`file_change.py` and `dir_change.py`, together with their `_js` and `_m` variants, generate modified application versions. `get_change_rate.py` reports the change rate between two versions.
+See the [SateLight repository](https://github.com/OPEN-TianSuan/SateLight) for the source code, scripts, environment requirements, and complete workflow for ground-side update generation, onboard reconstruction, and rollback.
 
 ## 📌 Source and License
 
-Upstream: https://github.com/WenJinfeng/SateLight (directory `SateLightCode/`).
+Source code: [https://github.com/OPEN-TianSuan/SateLight](https://github.com/OPEN-TianSuan/SateLight).
 
-The upstream repository does not include a license file. Copyright remains with the original authors; contact them for reuse terms.
+This directory contains project information and links to that source; it does not mirror the code. Check the source repository for its current license and attribution information.
